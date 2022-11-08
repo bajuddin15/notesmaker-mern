@@ -4,6 +4,10 @@
   "description": "Notes Taking App",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
