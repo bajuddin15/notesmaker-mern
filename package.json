@@ -9,7 +9,7 @@
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "heroku-postbuild": "cd frontend && npm install --only=dev && npm install && npm run build",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d"
   },
